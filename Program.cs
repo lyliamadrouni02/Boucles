@@ -9,7 +9,12 @@ class Program
          */
         
         // Etape 1 : faire un compteur qui va de 1 à 10
-        
+        int compteur = 1
+        for (int i = 1; i < 10; i++)
+        {
+            compteur++;
+            Debug.Log("" + compteur);
+        }
         // Etape 2 : faire un décompte qui va de 5 à 1 puis qui dit "Bonne année !"
 
         // Etape 3 : faire un compteur qui va de -4 à 2
